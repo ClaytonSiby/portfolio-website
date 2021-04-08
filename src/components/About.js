@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Container, Col, Row, Image,
 } from 'react-bootstrap';
+import styles from '../assets/styles/about.module.css';
 import siby from '../assets/images/hero.jpg';
 
 const About = () => (
@@ -14,7 +15,7 @@ const About = () => (
         <Col xs={12} sm={12} md={5} className="my-2">
           <Image src={`${siby}`} rounded fluid />
         </Col>
-        <Col xs={12} sm={12} md={7} className="my-2">
+        <Col xs={12} sm={12} md={7} className={`my-2 ${styles.aboutText}`}>
           <p>
             My name is Clayton Siby, I am a 22-year-old Full-Stack Software
             Developer. With the firm determination and strong skill-set that I
