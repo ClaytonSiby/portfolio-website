@@ -24,33 +24,9 @@ body {
   max-width: 1300px;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 450px) {
   .sectionTitle {
     font-size: 1rem;
   }
 }
 
-/* @-webkit-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
-
-@-moz-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
-
-@-ms-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
-
-@-o-keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-}
-
-@keyframes animate {
-	from {background-position:0 0;}
-	to {background-position: 500px 0;}
-} */
