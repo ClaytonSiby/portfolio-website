@@ -5,14 +5,8 @@ body {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1rem;
 	font-weight: normal;
-	color: #fff;
-	background: #070707 url('./assets/images/spaceview.jpg') repeat 0 0;
-	-webkit-animation: 10s linear 0s normal none infinite animate;
-	-moz-animation: 10s linear 0s normal none infinite animate;
-	-ms-animation: 10s linear 0s normal none infinite animate;
-	-o-animation: 10s linear 0s normal none infinite animate;
-	animation: 10s linear 0s normal none infinite animate;
-	background-attachment: fixed;
+	/* color: #fff; */
+	
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -21,6 +15,11 @@ body {
 	border-bottom: 2px solid rgb(8, 187, 241);
 	display: inline-block;
 	line-height: 2;
+	font-size: 1.2rem;
+}
+
+.container {
+	max-width: 1300px;
 }
 
 @media screen and (max-width: 411px) {
@@ -29,7 +28,7 @@ body {
 	}
 }
  
-@-webkit-keyframes animate {
+/* @-webkit-keyframes animate {
 	from {background-position:0 0;}
 	to {background-position: 500px 0;}
 }
@@ -52,4 +51,4 @@ body {
 @keyframes animate {
 	from {background-position:0 0;}
 	to {background-position: 500px 0;}
-}
+} */
