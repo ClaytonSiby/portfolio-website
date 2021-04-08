@@ -24,7 +24,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 450px) {
   .heroTitle {
     font-size: 1.2rem;
   }
