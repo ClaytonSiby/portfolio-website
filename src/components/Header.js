@@ -41,7 +41,7 @@ const Header = () => (
 
       <div className="my-3">
         <button type="button" className={`${styles.resumeBtn} btn btn-md btn-info text-light`}>Get my Resume</button>
-        <p className={`my-5 text-info ${styles.workAlert}`}><i>Actively Open for New Opportunities!</i></p>
+        <p className={`my-5 text-info ${styles.workAlert}`}><i>Currently Open to new Opportunities!</i></p>
       </div>
     </div>
   </Container>
