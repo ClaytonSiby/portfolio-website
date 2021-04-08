@@ -1,15 +1,15 @@
-import React from 'react'
-import Header from './Header'
-import NavBar from './NavBar'
+import React from 'react';
 import { Container } from 'react-bootstrap';
+import Header from './Header';
+import NavBar from './NavBar';
 
-function App () {
+function App() {
   return (
     <Container>
       <NavBar />
       <Header />
     </Container>
-  )
+  );
 }
 
-export default App
+export default App;
