@@ -18,16 +18,24 @@ const Header = () => (
       </p>
       <p className={`${styles.socialIcons} my-3`}>
         <span className={`${styles.socialIcon} m-1`}>
-          <a href=""><i className="fab fa-linkedin-in" /></a>
+          <a href="https://linkedin/in/claytonsiby" rel="noreferrer" target="_blank">
+            <i className="fab fa-linkedin-in" />
+          </a>
         </span>
         <span className={`${styles.socialIcon} m-1`}>
-          <a href=""><i className="fab fa-github" /></a>
+          <a href="https://github.com/ClaytonSiby" rel="noreferrer" target="_blank">
+            <i className="fab fa-github" />
+          </a>
         </span>
         <span className={`${styles.socialIcon} m-1`}>
-          <a href=""><i className="fab fa-twitter" /></a>
+          <a href="https://twitter.com/ClaytonSiby" rel="noreferrer" target="_blank">
+            <i className="fab fa-twitter" />
+          </a>
         </span>
         <span className={`${styles.socialIcon} m-1`}>
-          <a href=""><i className="fab fa-angellist" /></a>
+          <a href="https://angel.co/u/clayton-siby" rel="noreferrer" target="_blank">
+            <i className="fab fa-angellist" />
+          </a>
         </span>
       </p>
 
