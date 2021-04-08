@@ -3,7 +3,7 @@ import {
   Container, Col, Row, Image,
 } from 'react-bootstrap';
 import styles from '../assets/styles/about.module.css';
-import siby from '../assets/images/hero.jpg';
+import siby from '../assets/images/clayton.jpg';
 
 const About = () => (
   <Container className="p-0 my-3">
