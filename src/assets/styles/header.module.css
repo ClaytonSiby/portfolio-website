@@ -8,13 +8,35 @@
 }
 
 .headerDescription {
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
+}
+
+.socialIcon a {
+    color: #fff;
 }
 
 .socialIcon i {
     border: 1px solid #fff;
     padding: .7rem;
     border-radius: 50%;
+}
+
+@media screen and (max-width: 411px) {
+    .heroTitle {
+        font-size: 1.2rem;
+    }
+
+    .heroStack {
+        font-size: 1.4rem;
+    }
+
+    .headerText, .workAlert, .resumeBtn {
+        font-size: .8rem;
+    }
+
+    .socialIcon i {
+        padding: .5rem;
+    }
 }
