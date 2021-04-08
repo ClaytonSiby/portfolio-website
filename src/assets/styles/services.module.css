@@ -1,0 +1,15 @@
+.servicesSection {
+	background: linear-gradient(30deg, rgb(19, 17, 17) 3px, transparent 1%) center,
+		linear-gradient(45deg, rgb(29, 28, 28) 5px, transparent 1%) center, rgb(39, 38, 38);
+	background-size: 10px 10px;
+	min-height: 60vh;
+	position: relative;
+}
+
+.text {
+	font-size: 2em;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
