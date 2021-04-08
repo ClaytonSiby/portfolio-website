@@ -4,7 +4,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => (
   <Navbar collapseOnSelect sticky="top" expand="lg" bg="light" variant="light">
-    <Navbar.Brand href="#home">ClaytonSiby</Navbar.Brand>
+    <Navbar.Brand href="/" className="text-info">ClaytonSiby</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
@@ -12,7 +12,7 @@ const NavBar = () => (
       </Nav>
       <Nav>
         <Nav.Link href="#about">About</Nav.Link>
-        <Nav.Link eventKey={2} href="#memes">
+        <Nav.Link href="#services&amp;Technologies">
           Services&amp;Technologies
         </Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
