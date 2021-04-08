@@ -1,14 +1,15 @@
-import React from 'react';
-import Header from './Header';
+import React from 'react'
+import Header from './Header'
+import NavBar from './NavBar'
+import { Container } from 'react-bootstrap';
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Header />
-      </header>
-    </div>
-  );
+    <Container>
+      <NavBar />
+      <Header />
+    </Container>
+  )
 }
 
-export default App;
+export default App
