@@ -35,19 +35,41 @@ function Projects () {
         </h3>
       </header>
       <Row>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Meal Recipe Catalogue</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.catalogue}`}
+            >
+              <Card.Title className='px-3'>Meal Recipe Catalogue</Card.Title>
               <Card.Text>
-                This is a food recipe catalogue which helps users to
-                conviniently prepare tasty home-made meals.
+                <span className='px-3 d-block mb-1'>
+                  This is a food recipe catalogue which helps users to
+                  conviniently prepare tasty home-made meals.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  React
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Redux
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  React-Bootstrap
+                </button>
               </Card.Text>
               <Modal
                 show={showModal1}
                 onHide={handleClose}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Meal Recipe Catalogue</Modal.Title>
@@ -58,25 +80,51 @@ function Projects () {
                   conviniently prepare tasty home-made meals.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Lifestyle Articles</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.lifestyles}`}
+            >
+              <Card.Title className='px-3'>Lifestyle Articles</Card.Title>
               <Card.Text>
-                A site where consumers can post, vote and read on articles
-                information.
+                <span className='px-3 d-block mb-1'>
+                  A site where consumers can post, vote and read on articles
+                  information.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Ruby
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Ruby On Rails
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Rails-Rspec
+                </button>
               </Card.Text>
               <Modal
                 show={showModal2}
                 onHide={handleClose2}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Lifestyle Articles</Modal.Title>
@@ -86,25 +134,51 @@ function Projects () {
                   information.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow2}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow2}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Phaser3 Bug Dodger</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.bugDodger}`}
+            >
+              <Card.Title className='px-3'>Phaser3 Bug Dodger</Card.Title>
               <Card.Text>
-                This is a web-based game in which players need to dodge the
-                falling bugs to survive and earn more points.
+                <span className='px-3 d-block mb-1'>
+                  This is a web-based game in which players need to dodge the
+                  falling bugs to survive and earn more points.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Phaser3
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  ECMaScript6
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Jest-Tests
+                </button>
               </Card.Text>
               <Modal
                 show={showModal3}
                 onHide={handleClose3}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Phaser3 Bug Dodger</Modal.Title>
@@ -114,25 +188,51 @@ function Projects () {
                   falling bugs to survive and earn more points.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow3}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow3}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Web Scrapper</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.scrapper}`}
+            >
+              <Card.Title className='px-3'>Web Scrapper</Card.Title>
               <Card.Text>
-                A Web Scraper that takes information from Medium Website and
-                displays it on the terminal.
+                <span className='px-3 d-block mb-1'>
+                  A Web Scraper that takes information from Medium Website and
+                  displays it on the terminal.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Ruby
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Rspec
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  HTTParty
+                </button>
               </Card.Text>
               <Modal
                 show={showModal4}
                 onHide={handleClose4}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Web Scrapper</Modal.Title>
@@ -142,25 +242,51 @@ function Projects () {
                   displays it on the terminal.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow4}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow4}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Calculator</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.calculator}`}
+            >
+              <Card.Title className='px-3'>Calculator</Card.Title>
               <Card.Text>
-                Need to do a quick Math? Use this fast and convenient web
-                application from the browser of your choice.
+                <span className='px-3 d-block mb-1'>
+                  Need to do a quick Math? Use this fast and convenient web
+                  application from the browser of your choice.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  buildpack
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Webpack
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  EcmaScript 6
+                </button>
               </Card.Text>
               <Modal
                 show={showModal5}
                 onHide={handleClose5}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Calculator</Modal.Title>
@@ -170,26 +296,52 @@ function Projects () {
                   application from the browser of your choice.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow5}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow5}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} sm={12} md={4}>
+        <Col xs={12} sm={12} md={4} className='my-3'>
           <Card>
-            <Card.Body>
-              <Card.Title>Magic Books</Card.Title>
+            <Card.Body
+              className={`p-0 pt-2 ${styles.cardBody} ${styles.magicBooks}`}
+            >
+              <Card.Title className='px-3'>Magic Books</Card.Title>
               <Card.Text>
-                It is an app for a Germany fictional company Magic Books Inc.
-                The application helps organize and manage the company&apos;s
-                bookstore.
+                <span className='px-3 d-block mb-1'>
+                  It is an app for a Germany fictional company Magic Books Inc.
+                  The application helps organize and manage the company&apos;s
+                  bookstore.
+                </span>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  buildpack
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  Webpack
+                </button>
+                <button
+                  className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                >
+                  EcmaScript 6
+                </button>
               </Card.Text>
               <Modal
                 show={showModal6}
                 onHide={handleClose6}
                 backdrop='static'
                 keyboard={false}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
               >
                 <Modal.Header closeButton>
                   <Modal.Title>Magic Books</Modal.Title>
@@ -200,9 +352,13 @@ function Projects () {
                   bookstore.
                 </Modal.Body>
               </Modal>
-              <Button variant='primary' onClick={handleShow6}>
+              <button
+                className='btn btn-block btn-info'
+                variant='info'
+                onClick={handleShow6}
+              >
                 View Project
-              </Button>
+              </button>
             </Card.Body>
           </Card>
         </Col>
