@@ -1,30 +1,32 @@
-import React from 'react'
-import { Container, Row, Card, Col } from 'react-bootstrap'
-import styles from '../assets/styles/services.module.css'
-import article from '../assets/images/article_writing.jpg'
-import development from '../assets/images/web_development.jpg'
-import userinterface from '../assets/images/userinterface.jpg'
+import React from 'react';
+import {
+  Container, Row, Card, Col,
+} from 'react-bootstrap';
+import styles from '../assets/styles/services.module.css';
+import article from '../assets/images/article_writing.jpg';
+import development from '../assets/images/web_development.jpg';
+import userinterface from '../assets/images/userinterface.jpg';
 
 const Services = () => (
   <Container
-    id='services&amp;Technologies'
+    id="services&amp;Technologies"
     className={`p-0 py-2 ${styles.servicesSection}`}
   >
-    <header className='text-center'>
-      <h3 className='sectionTitle text-light'>
+    <header className="text-center">
+      <h3 className="sectionTitle text-light">
         <i>Services &amp; Technologies</i>
       </h3>
     </header>
-    <Row className='my-2 p-3 '>
-      <Col xs={12} sm={12} md={12} className='my-2'>
-        <span className={`${styles.rectangle}`}></span>
+    <Row className="my-2 p-3 ">
+      <Col xs={12} sm={12} md={12} className="my-2">
+        <span className={`${styles.rectangle}`} />
         <span className={`${styles.serviceTitle} mx-2`}>Services</span>
         <Row
           className={`text-light p-3 d-flex justify-content-between ${styles.servicesHolder}`}
         >
-          <Col xs={12} sm={12} md={3} className={`p-0`}>
+          <Col xs={12} sm={12} md={3} className="p-0">
             <Card className={`p-0 text-dark ${styles.service}`}>
-              <Card.Img variant='top' src={`${development}`} />
+              <Card.Img variant="top" src={`${development}`} />
               <Card.Body>
                 <Card.Title>Web Development</Card.Title>
                 <Card.Text>
@@ -34,9 +36,9 @@ const Services = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={12} md={3} className={`p-0`}>
+          <Col xs={12} sm={12} md={3} className="p-0">
             <Card className={`p-0 text-dark ${styles.service}`}>
-              <Card.Img variant='top' src={`${userinterface}`} />
+              <Card.Img variant="top" src={`${userinterface}`} />
               <Card.Body>
                 <Card.Title>UI/UX Design</Card.Title>
                 <Card.Text>
@@ -46,9 +48,9 @@ const Services = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={12} md={3} className={` p-0`}>
+          <Col xs={12} sm={12} md={3} className=" p-0">
             <Card className={`p-0 text-dark ${styles.service}`}>
-              <Card.Img variant='top' src={`${article}`} />
+              <Card.Img variant="top" src={`${article}`} />
               <Card.Body>
                 <Card.Title>Article Writing</Card.Title>
                 <Card.Text>
@@ -60,15 +62,15 @@ const Services = () => (
           </Col>
         </Row>
       </Col>
-      <Col xs={12} sm={12} md={6} className='my-2'>
-        <span className={`${styles.square}`}></span>
+      <Col xs={12} sm={12} md={6} className="my-2">
+        <span className={`${styles.square}`} />
         <span className={`${styles.serviceTitle} mx-2`}>Technologies</span>
         <div>
           <Card className={`my-3 ${styles.service}`}>
-            <Card.Body className='d-flex justify-content-around'>
+            <Card.Body className="d-flex justify-content-around">
               <Row>
                 <Col xs={12} sm={12} md={6}>
-                  <ul className='text-dark my-3'>
+                  <ul className="text-dark my-3">
                     <li className="list-item">JavaScript</li>
                     <li className="list-item">React/Redux</li>
                     <li className="list-item">TypeScript</li>
@@ -82,7 +84,7 @@ const Services = () => (
                   </ul>
                 </Col>
                 <Col xs={12} sm={12} md={6}>
-                  <ul className='text-dark my-3'>
+                  <ul className="text-dark my-3">
                     <li className="list-item">PostgreSql</li>
                     <li className="list-item">MySql</li>
                     <li className="list-item">Webpack</li>
@@ -97,8 +99,8 @@ const Services = () => (
           </Card>
         </div>
       </Col>
-      <Col xs={12} sm={12} md={6} className='my-2'>
-        <span className={`${styles.circle}`}></span>
+      <Col xs={12} sm={12} md={6} className="my-2">
+        <span className={`${styles.circle}`} />
         <span className={`${styles.serviceTitle} mx-2`}>Skills</span>
         <Card className={`my-3 ${styles.service}`}>
           <Card.Body>
@@ -123,6 +125,6 @@ const Services = () => (
       </Col>
     </Row>
   </Container>
-)
+);
 
-export default Services
+export default Services;

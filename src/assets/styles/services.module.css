@@ -1,25 +1,27 @@
 .servicesSection {
-	background: linear-gradient(30deg, rgb(19, 17, 17) 3px, transparent 1%) center,
-		linear-gradient(45deg, rgb(29, 28, 28) 5px, transparent 1%) center, rgb(39, 38, 38);
-	background-size: 10px 10px;
-	min-height: 60vh;
-	position: relative;
+  background:
+    linear-gradient(30deg, rgb(19, 17, 17) 3px, transparent 1%) center,
+    linear-gradient(45deg, rgb(29, 28, 28) 5px, transparent 1%) center,
+    rgb(39, 38, 38);
+  background-size: 10px 10px;
+  min-height: 60vh;
+  position: relative;
 }
 
 .rectangle {
-	position: static;
-	width: 16px;
-	height: 16px;
-	background: rgb(8, 187, 241);
-	transform: rotate(-45deg);
+  position: static;
+  width: 16px;
+  height: 16px;
+  background: rgb(8, 187, 241);
+  transform: rotate(-45deg);
   display: inline-block;
 }
 
 .square {
-	position: static;
-	width: 16px;
-	height: 16px;
-	background: rgb(8, 187, 241);
+  position: static;
+  width: 16px;
+  height: 16px;
+  background: rgb(8, 187, 241);
   border-radius: 150px;
   display: inline-block;
 }
@@ -28,7 +30,7 @@
   position: static;
   width: 16px;
   height: 16px;
-	background: rgb(8, 187, 241);
+  background: rgb(8, 187, 241);
   display: inline-block;
 }
 
