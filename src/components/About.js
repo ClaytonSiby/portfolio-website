@@ -18,8 +18,7 @@ const About = () => (
         <Col xs={12} sm={12} md={7} className={`my-2 ${styles.aboutText}`}>
           <p>
             My name is Clayton Siby, I am a 22-year-old Full-Stack Software
-            Developer. With the firm determination and strong skill-set that I
-            have in
+            Developer. With the firm determination and strong skill-set in
             {' '}
             <strong>Problem Solving</strong>
             {' '}
