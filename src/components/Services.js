@@ -6,6 +6,7 @@ import styles from '../assets/styles/services.module.css';
 import article from '../assets/images/article_writing.jpg';
 import development from '../assets/images/web_development.jpg';
 import userinterface from '../assets/images/userinterface.jpg';
+import gamedev from '../assets/images/gamedev.jpg';
 
 const Services = () => (
   <Container
@@ -18,13 +19,11 @@ const Services = () => (
       </h3>
     </header>
     <Row className="my-2 p-3 ">
-      <Col xs={12} sm={12} md={12} className="my-2">
-        <span className={`${styles.rectangle}`} />
+      <Col xs={12} sm={12} md={12} className="my-2 p-0">
+        <span className={`${styles.rectangle} ml-3`} />
         <span className={`${styles.serviceTitle} mx-2`}>Services</span>
-        <Row
-          className={`text-light p-3 d-flex justify-content-between ${styles.servicesHolder}`}
-        >
-          <Col xs={12} sm={12} md={3} className="p-0">
+        <Row className={`text-light p-3 ${styles.servicesHolder}`}>
+          <Col xs={12} sm={12} md={3} className="">
             <Card className={`p-0 text-dark ${styles.service}`}>
               <Card.Img variant="top" src={`${development}`} />
               <Card.Body>
@@ -36,7 +35,19 @@ const Services = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={12} md={3} className="p-0">
+          <Col xs={12} sm={12} md={3} className="">
+            <Card className={`p-0 text-dark ${styles.service}`}>
+              <Card.Img variant="top" src={`${gamedev}`} />
+              <Card.Body>
+                <Card.Title>Game Development</Card.Title>
+                <Card.Text>
+                  I have good skills in game development, mainly focusing on
+                  browser game applications using Phaser3 framework.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col xs={12} sm={12} md={3} className="">
             <Card className={`p-0 text-dark ${styles.service}`}>
               <Card.Img variant="top" src={`${userinterface}`} />
               <Card.Body>
@@ -48,7 +59,7 @@ const Services = () => (
               </Card.Body>
             </Card>
           </Col>
-          <Col xs={12} sm={12} md={3} className=" p-0">
+          <Col xs={12} sm={12} md={3} className="">
             <Card className={`p-0 text-dark ${styles.service}`}>
               <Card.Img variant="top" src={`${article}`} />
               <Card.Body>
@@ -62,7 +73,7 @@ const Services = () => (
           </Col>
         </Row>
       </Col>
-      <Col xs={12} sm={12} md={6} className="my-2">
+      <Col xs={12} sm={12} md={6} className="">
         <span className={`${styles.square}`} />
         <span className={`${styles.serviceTitle} mx-2`}>Technologies</span>
         <div>
@@ -99,7 +110,7 @@ const Services = () => (
           </Card>
         </div>
       </Col>
-      <Col xs={12} sm={12} md={6} className="my-2">
+      <Col xs={12} sm={12} md={6} className="">
         <span className={`${styles.circle}`} />
         <span className={`${styles.serviceTitle} mx-2`}>Skills</span>
         <Card className={`my-3 ${styles.service}`}>
@@ -113,7 +124,9 @@ const Services = () => (
                   <li className="list-item">Problem Solving</li>
                   <li className="list-item">Algorithms</li>
                   <li className="list-item">DataStructures</li>
-                  <li className="list-item">Strong English ( Written and Verbal )</li>
+                  <li className="list-item">
+                    Strong English ( Written and Verbal )
+                  </li>
                   <li className="list-item">Emotional Intelligence</li>
                   <li className="list-item">Strong Work Ethic</li>
                   <li className="list-item">Professionalism</li>

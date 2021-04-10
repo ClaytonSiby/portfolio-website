@@ -6,7 +6,7 @@ import styles from '../assets/styles/about.module.css';
 import siby from '../assets/images/clayton.jpg';
 
 const About = () => (
-  <Container className="p-0 my-3">
+  <Container className="p-0 my-3" id="about">
     <section className="">
       <header className=" text-center">
         <h3 className="sectionTitle">About Me</h3>

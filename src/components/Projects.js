@@ -30,7 +30,7 @@ function Projects() {
   const handleShow6 = () => setShowModal6(true);
 
   return (
-    <Container className={`my-3 p-0 ${styles.projectsSection}`}>
+    <Container className={`my-3 p-0 ${styles.projectsSection}`} id="projects">
       <header className="text-center">
         <h3 className="sectionTitle ">
           <i>Projects</i>
