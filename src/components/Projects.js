@@ -83,11 +83,18 @@ function Projects () {
                     <Col
                       xs={12}
                       md={5}
-                      className={`${styles.modalImage}`}
+                      className={`${styles.modalImage} ${styles.catalogueImg}`}
                     ></Col>
-                    <Col xs={12} md={7} className={`my-2 d-flex flex-column justify-content-center`}>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
                       <p>
-                      SIBYMeals is a fully responsive web application which serves the purpose of helping end users to conviniently prepare delicious meals for their families &amp; loved ones.
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
                       </p>
                       <div>
                         <button
@@ -139,7 +146,8 @@ function Projects () {
                               target='_blank'
                               className='text-light'
                             >
-                              View Live <i className="fas fa-external-link-alt"/>
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
                             </a>
                           </span>
                         </button>
@@ -218,9 +226,98 @@ function Projects () {
                 <Modal.Header closeButton>
                   <Modal.Title>Lifestyle Articles</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  A site where consumers can post, vote and read on articles
-                  information.
+                <Modal.Body className='py-0'>
+                  <Row className={`${styles.modalBody}`}>
+                    <Col
+                      xs={12}
+                      md={5}
+                      className={`${styles.modalImage} ${styles.lifestylesImg}`}
+                    ></Col>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
+                      <p>
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
+                      </p>
+                      <div>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          ReactJs
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Bootstrap
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Redux
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          LocalStorage
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          Heroku
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          BuildPack
+                        </button>
+                      </div>
+                      <div className='my-3'>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          <span>
+                            <a
+                              href='https://sibymealscatalogue.herokuapp.com'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
+                            </a>
+                          </span>
+                        </button>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          {' '}
+                          <span>
+                            <a
+                              href='https://github.com/ClaytonSiby/MealsCatalogue-Application'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              Source Code <i className='fab fa-github' />
+                            </a>
+                          </span>
+                        </button>
+                      </div>
+                    </Col>
+                  </Row>
                 </Modal.Body>
               </Modal>
               <button
@@ -277,9 +374,98 @@ function Projects () {
                 <Modal.Header closeButton>
                   <Modal.Title>Phaser3 Bug Dodger</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  This is a web-based game in which players need to dodge the
-                  falling bugs to survive and earn more points.
+                <Modal.Body className='py-0'>
+                  <Row className={`${styles.modalBody}`}>
+                    <Col
+                      xs={12}
+                      md={5}
+                      className={`${styles.modalImage} ${styles.phaserImg}`}
+                    ></Col>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
+                      <p>
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
+                      </p>
+                      <div>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          ReactJs
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Bootstrap
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Redux
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          LocalStorage
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          Heroku
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          BuildPack
+                        </button>
+                      </div>
+                      <div className='my-3'>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          <span>
+                            <a
+                              href='https://sibymealscatalogue.herokuapp.com'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
+                            </a>
+                          </span>
+                        </button>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          {' '}
+                          <span>
+                            <a
+                              href='https://github.com/ClaytonSiby/MealsCatalogue-Application'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              Source Code <i className='fab fa-github' />
+                            </a>
+                          </span>
+                        </button>
+                      </div>
+                    </Col>
+                  </Row>
                 </Modal.Body>
               </Modal>
               <button
@@ -336,9 +522,98 @@ function Projects () {
                 <Modal.Header closeButton>
                   <Modal.Title>Web Scrapper</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  A Web Scraper that takes information from Medium Website and
-                  displays it on the terminal.
+                <Modal.Body className='py-0'>
+                  <Row className={`${styles.modalBody}`}>
+                    <Col
+                      xs={12}
+                      md={5}
+                      className={`${styles.modalImage} ${styles.scrapperImg}`}
+                    ></Col>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
+                      <p>
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
+                      </p>
+                      <div>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          ReactJs
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Bootstrap
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Redux
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          LocalStorage
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          Heroku
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          BuildPack
+                        </button>
+                      </div>
+                      <div className='my-3'>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          <span>
+                            <a
+                              href='https://sibymealscatalogue.herokuapp.com'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
+                            </a>
+                          </span>
+                        </button>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          {' '}
+                          <span>
+                            <a
+                              href='https://github.com/ClaytonSiby/MealsCatalogue-Application'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              Source Code <i className='fab fa-github' />
+                            </a>
+                          </span>
+                        </button>
+                      </div>
+                    </Col>
+                  </Row>
                 </Modal.Body>
               </Modal>
               <button
@@ -395,9 +670,98 @@ function Projects () {
                 <Modal.Header closeButton>
                   <Modal.Title>Calculator</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  Need to do a quick Math? Use this fast and convenient web
-                  application from the browser of your choice.
+                <Modal.Body className='py-0'>
+                  <Row className={`${styles.modalBody}`}>
+                    <Col
+                      xs={12}
+                      md={5}
+                      className={`${styles.modalImage} ${styles.calculatorImg}`}
+                    ></Col>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
+                      <p>
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
+                      </p>
+                      <div>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          ReactJs
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Bootstrap
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Redux
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          LocalStorage
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          Heroku
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          BuildPack
+                        </button>
+                      </div>
+                      <div className='my-3'>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          <span>
+                            <a
+                              href='https://sibymealscatalogue.herokuapp.com'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
+                            </a>
+                          </span>
+                        </button>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          {' '}
+                          <span>
+                            <a
+                              href='https://github.com/ClaytonSiby/MealsCatalogue-Application'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              Source Code <i className='fab fa-github' />
+                            </a>
+                          </span>
+                        </button>
+                      </div>
+                    </Col>
+                  </Row>
                 </Modal.Body>
               </Modal>
               <button
@@ -455,10 +819,98 @@ function Projects () {
                 <Modal.Header closeButton>
                   <Modal.Title>Magic Books</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
-                  It is an app for a Germany fictional company Magic Books Inc.
-                  The application helps organize and manage the company&apos;s
-                  bookstore.
+                <Modal.Body className='py-0'>
+                  <Row className={`${styles.modalBody}`}>
+                    <Col
+                      xs={12}
+                      md={5}
+                      className={`${styles.modalImage} ${styles.booksImg}`}
+                    ></Col>
+                    <Col
+                      xs={12}
+                      md={7}
+                      className={`my-2 d-flex flex-column justify-content-center`}
+                    >
+                      <p>
+                        SIBYMeals is a fully responsive web application which
+                        serves the purpose of helping end users to conviniently
+                        prepare delicious meals for their families &amp; loved
+                        ones.
+                      </p>
+                      <div>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          ReactJs
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Bootstrap
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          React-Redux
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          LocalStorage
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          Heroku
+                        </button>
+                        <button
+                          type='button'
+                          className={`btn btn-sm btn-default border mx-3 my-1 text-light ${styles.technology}`}
+                        >
+                          BuildPack
+                        </button>
+                      </div>
+                      <div className='my-3'>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          <span>
+                            <a
+                              href='https://sibymealscatalogue.herokuapp.com'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              View Live{' '}
+                              <i className='fas fa-external-link-alt' />
+                            </a>
+                          </span>
+                        </button>
+                        <button
+                          type='button'
+                          className='btn btn-sm mx-2 my-1 btn-info'
+                        >
+                          {' '}
+                          <span>
+                            <a
+                              href='https://github.com/ClaytonSiby/MealsCatalogue-Application'
+                              rel='noreferrer'
+                              target='_blank'
+                              className='text-light'
+                            >
+                              Source Code <i className='fab fa-github' />
+                            </a>
+                          </span>
+                        </button>
+                      </div>
+                    </Col>
+                  </Row>
                 </Modal.Body>
               </Modal>
               <button
