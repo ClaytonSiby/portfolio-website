@@ -1,109 +1,109 @@
 .projectsSection {
-	min-height: 50vh;
+  min-height: 50vh;
 }
 
 .cardBody {
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	min-height: 40vh;
-	color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 40vh;
+  color: #fff;
 }
 
 .catalogue {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/food.jpg');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/food.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .lifestyles {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/lifestyle.jpg');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/lifestyle.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .bugDodger {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/keyboard.jpg');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/keyboard.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .scrapper {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/scraper.png');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/scraper.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .calculator {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/calculator.jpg');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/calculator.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .magicBooks {
-	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/books.jpg');
-	background-position: center center;
-	background-size: cover;
-	background-repeat: no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url('../images/books.jpg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .modalBody {
-	min-height: 50vh ;
+  min-height: 50vh;
 }
 
 .modalImage {
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .catalogueImg {
-	background: url('../images/food.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/food.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .lifestylesImg {
-	background: url('../images/lifestyle.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/lifestyle.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .phaserImg {
-	background: url('../images/keyboard.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/keyboard.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .scrapperImg {
-	background: url('../images/scraper.png');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/scraper.png');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .calculatorImg {
-	background: url('../images/calculator.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/calculator.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .booksImg {
-	background: url('../images/books.jpg');
-	background-size: cover;
-	background-position: center center;
-	background-repeat: no-repeat;
+  background: url('../images/books.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .technology {
-	background: grey;
+  background: grey;
 }
