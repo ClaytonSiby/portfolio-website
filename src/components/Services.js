@@ -103,6 +103,7 @@ const Services = () => (
                     <li className="list-item">Test Driven Development</li>
                     <li className="list-item">Behavior Driven Development</li>
                     <li className="list-item">Desployment</li>
+                    <li className="list-item">Phaser3</li>
                   </ul>
                 </Col>
               </Row>
