@@ -15,6 +15,7 @@ const ContactForm = () => (
       </h3>
     </header>
     <p className={`m-2 text-info ${styles.connect}`}>Let&apos;s connect!</p>
+    <p className="text-info"><b>email:</b> claytonsiby@gmail.com <b>cell:</b> +27 64 122 6401</p>
     <Form className="m-2">
       <Row>
         <Col xs={12} sm={12} md={6} className="my-1">
