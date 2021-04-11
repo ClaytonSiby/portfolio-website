@@ -29,7 +29,7 @@ const ContactForm = () => (
           <Form.Group>
             <Form.Control
               as="textarea"
-              rows={3}
+              rows={4}
               placeholder="Leave a Message"
             />
           </Form.Group>
