@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap';
 import styles from '../assets/styles/header.module.css';
 
 const Header = () => (
-  <Container className={`${styles.header} p-0 text-light`}>
-    <div className={`${styles.headerDescription}`}>
+  <Container className={`${styles.header} p-0 px-2 text-light`}>
+    <div className={`${styles.headerDescription} pt-5`}>
       <h3 className={`${styles.heroTitle}`}>Hi, I&apos;m Clayton Siby</h3>
       <h2 className={`${styles.heroStack}`}>Full-Stack Software Developer</h2>
       <p className={`${styles.headerText} my-3`}>
@@ -62,13 +62,11 @@ const Header = () => (
         >
           Get my Resume
         </button>
-        <p className={`my-5 text-info ${styles.workAlert}`}>
 
-          <div className={`${styles.scrollText}`}>
-            <h5><i>Currently Open to new Opportunities!</i></h5>
-          </div>
+        <div className={`my-5 text-info ${styles.workAlert} ${styles.scrollText}`}>
+          <p><i>Currently Open to new Opportunities!</i></p>
+        </div>
 
-        </p>
       </div>
     </div>
   </Container>

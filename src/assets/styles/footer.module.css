@@ -1,0 +1,19 @@
+.footer {
+  background: #f8f9fa;
+}
+
+.socialIcon a {
+  color: rgb(8, 187, 241);
+}
+
+.socialIcon i {
+  border: 1px solid rgb(53, 52, 52);
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+  .socialIcon i {
+    padding: 0.5rem;
+  }
+}

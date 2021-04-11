@@ -7,6 +7,7 @@ import About from './About';
 import Projects from './Projects';
 import Featured from './Featured';
 import ContactForm from './ContactForm';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Featured />
       <ContactForm />
+      <Footer />
     </Container>
   );
 }
