@@ -1,0 +1,106 @@
+.header {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url('../images/headerbg.jpeg');
+  line-height: 1.6;
+}
+
+.headerDescription {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.socialIcon a {
+  color: #fff;
+}
+
+.socialIcon i {
+  border: 1px solid #fff;
+  padding: 0.7rem;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 450px) {
+  .heroTitle {
+    font-size: 1.2rem;
+  }
+
+  .heroStack {
+    font-size: 1.4rem;
+  }
+
+  .headerText,
+  .workAlert,
+  .resumeBtn {
+    font-size: 0.8rem;
+  }
+
+  .socialIcon i {
+    padding: 0.5rem;
+  }
+}
+
+.scrollText {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollText p {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  font-size: 1rem;
+
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  /* Apply animation to this element */
+  -moz-animation: scrolltext 15s linear infinite;
+  -webkit-animation: scrolltext 15s linear infinite;
+  animation: scrollText 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scrollText {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scrollText {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollText {
+  0% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+}
