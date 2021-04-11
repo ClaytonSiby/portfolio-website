@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Services from './Services';
 import About from './About';
 import Projects from './Projects';
+import Featured from './Featured';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <About />
       <Projects />
+      <Featured />
     </Container>
   );
 }
