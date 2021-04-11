@@ -6,16 +6,18 @@ import Services from './Services';
 import About from './About';
 import Projects from './Projects';
 import Featured from './Featured';
+import ContactForm from './ContactForm';
 
 function App() {
   return (
     <Container>
       <NavBar />
       <Header />
-      <Services />
       <About />
+      <Services />
       <Projects />
       <Featured />
+      <ContactForm />
     </Container>
   );
 }

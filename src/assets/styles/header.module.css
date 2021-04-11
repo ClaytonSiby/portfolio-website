@@ -43,3 +43,63 @@
     padding: 0.5rem;
   }
 }
+
+.scrollText {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scrollText h5 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+
+  /* Starting position */
+  -moz-transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+
+  /* Apply animation to this element */
+  -moz-animation: scrolltext 15s linear infinite;
+  -webkit-animation: scrolltext 15s linear infinite;
+  animation: scrollText 15s linear infinite;
+}
+
+/* Move it (define the animation) */
+@-moz-keyframes scrollText {
+  0% {
+    -moz-transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scrollText {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollText {
+  0% {
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%);
+  }
+
+  100% {
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);
+  }
+}
