@@ -18,7 +18,7 @@ const ContactForm = () => (
     <p className="text-info">
       <b>email:</b>
       {' '}
-      claytonsiby@gmail.com
+      claytonsiby@gmail.com&nbsp;
       <b>cell:</b>
       {' '}
       +27 64 122 6401
@@ -49,7 +49,7 @@ const ContactForm = () => (
               placeholder="Leave a Message"
             />
           </Form.Group>
-          <Button className="btn-block" variant="info" type="submit">
+          <Button  className="btn-block" variant="info" type="submit">
             Send Message
           </Button>
         </Col>
