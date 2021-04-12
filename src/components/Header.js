@@ -60,7 +60,7 @@ const Header = () => (
           type="button"
           className={`${styles.resumeBtn} btn btn-md btn-info text-light`}
         >
-          <a href="https://docs.google.com/document/d/1WN1g5zreK0sxs2oQceXPNOUaVwMAHe8qI_PPXzmKT7A/edit?usp=sharing" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/document/d/1WN1g5zreK0sxs2oQceXPNOUaVwMAHe8qI_PPXzmKT7A/edit?usp=sharing" target="_blank" rel="noreferrer" className="text-light">
             Get my Resume
           </a>
         </button>
