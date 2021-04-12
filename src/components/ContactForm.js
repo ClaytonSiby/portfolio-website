@@ -49,7 +49,7 @@ const ContactForm = () => (
               placeholder="Leave a Message"
             />
           </Form.Group>
-          <Button  className="btn-block" variant="info" type="submit">
+          <Button className="btn-block" variant="info" type="submit">
             Send Message
           </Button>
         </Col>
