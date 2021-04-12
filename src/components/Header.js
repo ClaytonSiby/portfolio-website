@@ -60,7 +60,9 @@ const Header = () => (
           type="button"
           className={`${styles.resumeBtn} btn btn-md btn-info text-light`}
         >
-          Get my Resume
+          <a href="https://docs.google.com/document/d/1WN1g5zreK0sxs2oQceXPNOUaVwMAHe8qI_PPXzmKT7A/edit?usp=sharing" target="_blank" rel="noreferrer">
+            Get my Resume
+          </a>
         </button>
 
         <div className={`my-5 text-info ${styles.workAlert} ${styles.scrollText}`}>
