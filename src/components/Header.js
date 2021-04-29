@@ -9,7 +9,7 @@ const Header = () => (
       <h2 className={`${styles.heroStack}`}>Full-Stack Software Developer</h2>
       <p className={`${styles.headerText} my-3`}>
         I am a Software Enthusiast, I can help you develop web applications.
-        Check out some of my works in the
+        Check out some of my work in the
         {' '}
         <strong>Projects</strong>
         {' '}
