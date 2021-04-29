@@ -19,7 +19,7 @@ const Header = () => (
       <p className={`${styles.socialIcons} my-3`}>
         <span className={`${styles.socialIcon} m-1`}>
           <a
-            href="https://linkedin/in/claytonsiby"
+            href="https://www.linkedin.com/in/clayton-siby/"
             rel="noreferrer"
             target="_blank"
           >

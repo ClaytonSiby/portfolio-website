@@ -7,7 +7,7 @@ const Footer = () => (
     <div className={`${styles.socialIcons} my-3 text-center`}>
       <span className={`${styles.socialIcon} m-1`}>
         <a
-          href="https://linkedin/in/claytonsiby"
+          href="https://www.linkedin.com/in/clayton-siby/"
           rel="noreferrer"
           target="_blank"
         >
