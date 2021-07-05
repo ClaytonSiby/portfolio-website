@@ -650,7 +650,7 @@ function Projects() {
               <Card.Title className="px-3">Calculator</Card.Title>
               <Card.Text>
                 <span className="px-3 d-block mb-1">
-                  Need to do a quick Math? Use this fast and convenient web
+                  Need to do quick math? Use this fast and convenient web
                   application from the browser of your choice.
                 </span>
                 <button

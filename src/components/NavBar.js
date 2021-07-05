@@ -13,7 +13,7 @@ const NavBar = () => (
       <Nav>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#services&amp;Technologies">
-          Services&amp;Technologies
+          Services &amp; Technologies
         </Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>
