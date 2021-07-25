@@ -8,12 +8,12 @@ const NavBar = () => (
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="mr-auto">
-        <Nav.Link href="#features">Featured</Nav.Link>
+        <Nav.Link href="#publications">Publications</Nav.Link>
       </Nav>
       <Nav>
         <Nav.Link href="#about">About</Nav.Link>
         <Nav.Link href="#services&amp;Technologies">
-          Services&amp;Technologies
+          Services &amp; Technologies
         </Nav.Link>
         <Nav.Link href="#projects">Projects</Nav.Link>
         <Nav.Link href="#contact">Contact</Nav.Link>

@@ -38,7 +38,7 @@ function Projects() {
       </header>
       <Row>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.catalogue}`}
             >
@@ -189,7 +189,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.lifestyles}`}
             >
@@ -341,7 +341,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.bugDodger}`}
             >
@@ -492,7 +492,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.scrapper}`}
             >
@@ -643,14 +643,14 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.calculator}`}
             >
               <Card.Title className="px-3">Calculator</Card.Title>
               <Card.Text>
                 <span className="px-3 d-block mb-1">
-                  Need to do a quick Math? Use this fast and convenient web
+                  Need to do quick math? Use this fast and convenient web
                   application from the browser of your choice.
                 </span>
                 <button
@@ -793,7 +793,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.magicBooks}`}
             >

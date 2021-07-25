@@ -7,10 +7,10 @@ import scss from '../assets/images/scss.png';
 
 function Featured() {
   return (
-    <Container className={`${styles.featured}`}>
+    <Container className={`${styles.featured}`} id="publications">
       <header className="text-center">
-        <h3 className="sectionTitle text-dark">
-          <i>Featured</i>
+        <h3 className="sectionTitle text-light my-2">
+          <i>Publications</i>
         </h3>
       </header>
       <Row className="my-3 d-flex justify-content-center">
