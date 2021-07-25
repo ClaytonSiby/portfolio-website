@@ -8,7 +8,7 @@ const Header = () => (
     <div className={`${styles.headerDescription} pt-5`}>
       <h3 className={`${styles.heroTitle}`}>Hi, I&apos;m Clayton Siby</h3>
       <p className={`${styles.developer}`}>
-        <Typewriter options={{ strings: ['Software Engineer', 'Software Developer'], autoStart: true, loop: true }} />
+        <Typewriter options={{ strings: ['Software Engineer', 'Full-Stack Developer', 'Game Developer', 'Web Developer'], autoStart: true, loop: true }} />
       </p>
       <p className={`${styles.headerText} my-3`}>
         I am a Software Enthusiast, I can help you develop web applications.

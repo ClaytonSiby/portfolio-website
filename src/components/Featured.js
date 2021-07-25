@@ -9,7 +9,7 @@ function Featured() {
   return (
     <Container className={`${styles.featured}`} id="publications">
       <header className="text-center">
-        <h3 className="sectionTitle text-dark my-2">
+        <h3 className="sectionTitle text-light my-2">
           <i>Publications</i>
         </h3>
       </header>

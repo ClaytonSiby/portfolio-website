@@ -13,7 +13,7 @@ const About = () => (
       </header>
       <Row className="my-2">
         <Col xs={12} sm={12} md={5} className="my-2">
-          <Image src={`${siby}`} rounded fluid />
+          <Image src={`${siby}`} className={`${styles.heroImage}`} fluid />
         </Col>
         <Col
           xs={12}

@@ -4,6 +4,8 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 0.9rem;
   font-weight: normal;
+  background: #101820ff;
+  color: #fff;
 }
 
 .sectionTitle {
@@ -24,7 +26,7 @@ body {
 }
 
 .container {
-  max-width: 1600px;
+  max-width: 1800px;
 }
 
 @media screen and (max-width: 450px) {

@@ -38,7 +38,7 @@ function Projects() {
       </header>
       <Row>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.catalogue}`}
             >
@@ -189,7 +189,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.lifestyles}`}
             >
@@ -341,7 +341,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.bugDodger}`}
             >
@@ -492,7 +492,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.scrapper}`}
             >
@@ -643,7 +643,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.calculator}`}
             >
@@ -793,7 +793,7 @@ function Projects() {
           </Card>
         </Col>
         <Col xs={12} sm={12} md={4} className="my-3">
-          <Card>
+          <Card className={`${styles.roundedEdgeCard}`}>
             <Card.Body
               className={`p-0 pt-2 ${styles.cardBody} ${styles.magicBooks}`}
             >

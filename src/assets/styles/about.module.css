@@ -1,4 +1,8 @@
-
 .aboutText {
   font-size: 0.9rem;
+}
+
+.heroImage {
+  border-radius: 2rem;
+  border-top-left-radius: 5rem;
 }
