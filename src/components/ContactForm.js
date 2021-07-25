@@ -6,7 +6,7 @@ import styles from '../assets/styles/contactform.module.css';
 
 const ContactForm = () => (
   <Container
-    id="services&amp;Technologies"
+    id="contact"
     className={`p-0 mt-3 py-2 ${styles.contactForm}`}
   >
     <header className="text-center">

@@ -88,7 +88,7 @@ const Services = () => (
                     <li className="list-item">BootStrap</li>
                     <li className="list-item">Ruby</li>
                     <li className="list-item">Ruby On Rails</li>
-                    <li className="list-item">Html</li>
+                    <li className="list-item">HTML</li>
                     <li className="list-item">CSS/SCSS</li>
                     <li className="list-item">Jest Testing Library</li>
                     <li className="list-item">React-Testing-Library</li>
@@ -98,8 +98,8 @@ const Services = () => (
                   <ul className="text-dark my-3">
                     <li className="list-item">PostgreSql</li>
                     <li className="list-item">MySql</li>
-                    <li className="list-item">Webpack</li>
-                    <li className="list-item">Github / Git / GitFlow</li>
+                    <li className="list-item">webpack</li>
+                    <li className="list-item">GitHub / Git / GitFlow</li>
                     <li className="list-item">Test Driven Development</li>
                     <li className="list-item">Behavior Driven Development</li>
                     <li className="list-item">Desployment</li>
@@ -124,7 +124,7 @@ const Services = () => (
                   <li className="list-item">Teamwork</li>
                   <li className="list-item">Problem Solving</li>
                   <li className="list-item">Algorithms</li>
-                  <li className="list-item">DataStructures</li>
+                  <li className="list-item">Data Structures</li>
                   <li className="list-item">
                     Strong English ( Written and Verbal )
                   </li>
