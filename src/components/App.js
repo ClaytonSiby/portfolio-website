@@ -4,7 +4,7 @@ import Header from './Header';
 import NavBar from './NavBar';
 import Services from './Services';
 import About from './About';
-import Projects from './Projects';
+// import Projects from './Projects';
 import Featured from './Featured';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
@@ -15,7 +15,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
-      <Projects />
+      {/* <Projects /> */}
       <Services />
       <Featured />
       <ContactForm />

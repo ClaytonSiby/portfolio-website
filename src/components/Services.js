@@ -65,7 +65,7 @@ const Services = () => (
               <Card.Body>
                 <Card.Title>Article Writing</Card.Title>
                 <Card.Text>
-                  I can help write Software Documentation. Have a look at some
+                  I write Software Documentation. Have a look at some
                   of my published articles in the featured section.
                 </Card.Text>
               </Card.Body>

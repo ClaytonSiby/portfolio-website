@@ -13,8 +13,8 @@ const Header = () => (
         {' '}
         <strong>Projects</strong>
         {' '}
-        section,
-        impressed? Then contact me &amp; let&apos;s collaborate!
+        section.
+        Impressed? Contact me &amp; let&apos;s collaborate!
       </p>
       <p className={`${styles.socialIcons} my-3`}>
         <span className={`${styles.socialIcon} m-1`}>
