@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import { Container } from 'react-bootstrap';
 import styles from '../assets/styles/header.module.css';
 
@@ -6,7 +7,9 @@ const Header = () => (
   <Container className={`${styles.header} p-0 px-2 text-light`}>
     <div className={`${styles.headerDescription} pt-5`}>
       <h3 className={`${styles.heroTitle}`}>Hi, I&apos;m Clayton Siby</h3>
-      <h2 className={`${styles.heroStack}`}>Full-Stack Software Developer</h2>
+      <p className={`${styles.developer}`}>
+        <Typewriter options={{ strings: ['Software Engineer', 'Software Developer'], autoStart: true, loop: true }} />
+      </p>
       <p className={`${styles.headerText} my-3`}>
         I am a Software Enthusiast, I can help you develop web applications.
         Check out some of my work in the

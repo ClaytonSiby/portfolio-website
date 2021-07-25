@@ -9,8 +9,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   line-height: 1.6;
-  border-bottom-left-radius: 10%;
+  border-bottom-left-radius: 30%;
   border-bottom-right-radius: 50%;
+}
+
+.developer {
+  font-size: 1.4rem;
+  color: #138496;
 }
 
 .headerDescription {
